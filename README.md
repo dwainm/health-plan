@@ -13,6 +13,7 @@ This cookbook is built on a few core principles that make healthy eating automat
 - [Our Principles](docs/principles.md) — The foundation
 - [The 30 Meals](meals/README.md) — Daily meals
 - [The 10 Guest Meals](meals/guest/README.md) — For hosting
+- [Specialty Meals](meals/specialty/README.md) — Trusted favorites
 - [Bread & Baking](bread/README.md) — Sourdough whole grain
 
 ## Project Structure
