@@ -32,7 +32,7 @@ cat > "$BUILD_DIR/template.html" << 'EOF'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$title$ - Family Health Plan</title>
+    <title>$title$ - Health Plan</title>
     <style>
         :root {
             --color-primary: #2c5530;
