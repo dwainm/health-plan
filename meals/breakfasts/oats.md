@@ -1,0 +1,152 @@
+# Oats
+
+**Plant-based | Whole foods | Low calorie density**
+
+Our weekday default breakfast. Filling, versatile, and ready in minutes.
+
+---
+
+## Sources
+
+- **Overnight Oats method**: Adapted from [Oh She Glows](https://ohsheglows.com) by Angela Liddon (NYT Bestselling Author)
+- **Baked Oatmeal variation**: Adapted from [NutritionFacts.org](https://nutritionfacts.org/recipes/) / How Not to Die Cookbook by Dr. Michael Greger
+- **BROL concept**: Adapted from [NutritionFacts.org](https://nutritionfacts.org/recipes/) by Dr. Michael Greger
+
+---
+
+## Steel-Cut Oats (Stovetop)
+
+**Serves 4-6**
+
+### Ingredients
+
+| Ingredient | Amount | Notes |
+|------------|--------|-------|
+| Steel-cut oats | 1½ cups | Also called Irish oats |
+| Water | 4½ cups | Or unsweetened plant milk |
+| Salt | ½ tsp | Essential for flavor |
+| Cinnamon | ½ tsp | Optional, add while cooking |
+
+### Method
+
+1. **Toast oats** (optional): Dry toast oats in pot 2-3 minutes until fragrant
+2. **Add liquid and salt**: Bring to boil
+3. **Simmer**: Reduce heat, cover, cook 20-30 minutes until creamy
+4. **Stir occasionally**: Prevent sticking
+
+---
+
+## Overnight Oats (No-Cook)
+
+*Adapted from Oh She Glows*
+
+**Serves 1 | Prep night before**
+
+### Ingredients
+
+| Ingredient | Amount |
+|------------|--------|
+| Rolled oats | ⅓ cup |
+| Plant milk (unsweetened) | 1 cup |
+| Chia seeds | 1-2 tbsp |
+| Ripe banana, mashed | 1 medium |
+| Vanilla extract | ¼ tsp |
+| Salt | pinch |
+
+### Method
+
+1. Combine all ingredients in jar or bowl
+2. Stir well
+3. Refrigerate overnight (minimum 4 hours)
+4. Serve cold or warmed slightly
+
+### Flavor Variations
+
+**Berry Banana** (Dr. Greger style)
+- Add ½ cup frozen berries + 1 tbsp ground flaxseed
+
+**Apple Cinnamon**
+- Add ½ cup diced apple + ½ tsp cinnamon + 1-2 chopped dates
+
+**Carrot Cake** (adapted from How Not to Die Cookbook)
+- Add ½ cup grated carrot + ¼ cup raisins + ½ tsp cinnamon + pinch nutmeg
+
+---
+
+## Baked Oatmeal
+
+*Adapted from How Not to Die Cookbook*
+
+**Serves 6**
+
+### Ingredients
+
+| Ingredient | Amount |
+|------------|--------|
+| Rolled oats | 3 cups |
+| Plant milk | 2 cups |
+| Applesauce (unsweetened) | 1 cup |
+| Baking powder | 2 tsp |
+| Cinnamon | 1 tsp |
+| Vanilla extract | 1 tsp |
+| Salt | ½ tsp |
+| Mixed berries or diced apple | 1½ cups |
+
+### Method
+
+1. Preheat oven to 375°F (190°C)
+2. Mix all ingredients in large bowl
+3. Pour into 9x13 baking dish
+4. Bake 35-40 minutes until set
+5. Serve warm or cool completely for grab-and-go portions
+
+---
+
+## Toppings (Choose 2-3)
+
+| Topping | Portion | Notes |
+|---------|---------|-------|
+| Fresh berries | ½ cup | Blueberries, strawberries, raspberries |
+| Sliced banana | 1 medium | ~105 cal |
+| Ground flaxseed | 1 tbsp | Omega-3, ~55 cal |
+| Chopped walnuts | 1 tbsp | Use sparingly, ~50 cal |
+| Unsweetened applesauce | ½ cup | ~50 cal |
+| Chopped dates | 2-3 | Natural sweetness |
+| Cinnamon | generous | 0 cal, helps blood sugar |
+
+---
+
+## BROL: The Nutrition Powerhouse
+
+*Adapted from Dr. Greger's Daily Dozen*
+
+For maximum nutrition, rotate or combine:
+
+| Grain | Benefit |
+|-------|---------|
+| **B**arley | Beta-glucan fiber |
+| **R**ye | Sustained energy |
+| **O**ats | Heart health |
+| **L**entils | Protein, iron |
+
+**Method**: Cook mixed grains and lentils together in Instant Pot (20 min) or stovetop (45 min). Top with sautéed greens and fruit.
+
+---
+
+## Batch Cooking
+
+- Make a large pot of steel-cut oats on Sunday
+- Store in refrigerator up to 5 days
+- Reheat with splash of water or plant milk
+- Baked oatmeal keeps 5 days refrigerated, freezes well
+
+---
+
+## Nutrition Notes
+
+**Per serving (overnight oats base)**
+- Calories: ~280
+- Fiber: 8g
+- Protein: 7g
+
+*Source: NutritionFacts.org recipe analysis*
