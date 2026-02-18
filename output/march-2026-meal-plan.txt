@@ -3,99 +3,105 @@ MARCH 2026 MEAL PLAN
 
 People: 6
 Lunch portions: ~3 (leftovers from previous dinner)
+Rotation: 2-week cycle (Sat-Sun specialty, Mon-Fri core)
 
 ================================================================================
 
-Day 01: Lentil Soup               ~420 cal/serving
+WEEK 1 (Sat-Fri): Butter Chicken → Moroccan Lamb → Lentil → Stir-fry → Pasta → Burrito → Simple Dal
+WEEK 2 (Sat-Fri): Seafood Pot → Lamb & Beef → Chana Masala → Veg Curry → Bean Chili → Med Plate → Fried Rice
 
-Day 02: Stir-fry                  ~480 cal/serving
+================================================================================
+
+Sun 01: Moroccan Lamb             ~720 cal/serving
+
+Mon 02: Lentil Soup               ~420 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 03: Pasta e Fagioli           ~520 cal/serving
+Tue 03: Stir-fry                  ~480 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 04: Burrito Bowls             ~580 cal/serving
+Wed 04: Pasta e Fagioli           ~520 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 05: Simple Dal                ~450 cal/serving
+Thu 05: Burrito Bowls             ~580 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 06: Butter Chicken Curry      ~650 cal/serving
+Fri 06: Simple Dal                ~450 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 07: Moroccan Lamb             ~720 cal/serving
+Sat 07: Butter Chicken Curry      ~650 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 08: Chana Masala              ~460 cal/serving
+Sun 08: Lamb & Beef Pot           ~750 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 09: Vegetable Curry           ~440 cal/serving
+Mon 09: Chana Masala              ~460 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 10: Bean Chili                ~490 cal/serving
+Tue 10: Vegetable Curry           ~440 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 11: Mediterranean Plate       ~510 cal/serving
+Wed 11: Bean Chili                ~490 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 12: Fried Rice                ~520 cal/serving
+Thu 12: Mediterranean Plate       ~510 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 13: Seafood Pot               ~680 cal/serving
+Fri 13: Fried Rice                ~520 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 14: Lamb & Beef Pot           ~750 cal/serving
+Sat 14: Seafood Pot               ~680 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 15: Lentil Soup               ~420 cal/serving
+Sun 15: Moroccan Lamb             ~720 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 16: Stir-fry                  ~480 cal/serving
+Mon 16: Lentil Soup               ~420 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 17: Pasta e Fagioli           ~520 cal/serving
+Tue 17: Stir-fry                  ~480 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 18: Burrito Bowls             ~580 cal/serving
+Wed 18: Pasta e Fagioli           ~520 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 19: Simple Dal                ~450 cal/serving
+Thu 19: Burrito Bowls             ~580 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 20: Butter Chicken Curry      ~650 cal/serving
+Fri 20: Simple Dal                ~450 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 21: Moroccan Lamb             ~720 cal/serving
+Sat 21: Butter Chicken Curry      ~650 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 22: Chana Masala              ~460 cal/serving
+Sun 22: Lamb & Beef Pot           ~750 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 23: Vegetable Curry           ~440 cal/serving
+Mon 23: Chana Masala              ~460 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 24: Bean Chili                ~490 cal/serving
+Tue 24: Vegetable Curry           ~440 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 25: Mediterranean Plate       ~510 cal/serving
+Wed 25: Bean Chili                ~490 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 26: Fried Rice                ~520 cal/serving
+Thu 26: Mediterranean Plate       ~510 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 27: Seafood Pot               ~680 cal/serving
+Fri 27: Fried Rice                ~520 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 28: Lamb & Beef Pot           ~750 cal/serving
+Sat 28: Seafood Pot               ~680 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 29: Lentil Soup               ~420 cal/serving
+Sun 29: Moroccan Lamb             ~720 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 30: Stir-fry                  ~480 cal/serving
+Mon 30: Lentil Soup               ~420 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Day 31: Pasta e Fagioli           ~520 cal/serving
+Tue 31: Stir-fry                  ~480 cal/serving
          Lunch: Leftovers (~3 portions)
 
 
@@ -146,4 +152,4 @@ NOTES:
 - Check freezer before buying meat
 - Lunch = leftovers from previous dinner
 
-Generated: Wed 18 Feb 2026 11:28:18 SAST
+Generated: Wed 18 Feb 2026 11:32:00 SAST

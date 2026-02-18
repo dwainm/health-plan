@@ -10,10 +10,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
 # Colors for output
-RED='\033[0;31m'
 GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
 echo "========================================"
 echo "    MONTHLY MEAL PLAN GENERATOR"
@@ -68,7 +66,6 @@ echo "  Lunch portions: ~$LUNCH_PORTIONS (leftovers)"
 echo ""
 
 # Calculate days in month
-# Use a simple approach for cross-platform compatibility
 get_days_in_month() {
     local year=$1
     local month=$2
@@ -102,24 +99,68 @@ else
     echo "Generating full month plan (days 1-$LAST_DAY)"
 fi
 
-# Define 2-week rotation using indexed arrays
-WEEK1_SAT="Butter Chicken Curry"
-WEEK1_SUN="Moroccan Lamb"
-WEEK1_MON="Lentil Soup"
-WEEK1_TUE="Stir-fry"
-WEEK1_WED="Pasta e Fagioli"
-WEEK1_THU="Burrito Bowls"
-WEEK1_FRI="Simple Dal"
+# Day names array (0=Sun, 1=Mon, ..., 6=Sat)
+DAY_NAMES=("Sun" "Mon" "Tue" "Wed" "Thu" "Fri" "Sat")
 
-WEEK2_SAT="Seafood Pot"
-WEEK2_SUN="Lamb & Beef Pot"
-WEEK2_MON="Chana Masala"
-WEEK2_TUE="Vegetable Curry"
-WEEK2_WED="Bean Chili"
-WEEK2_THU="Mediterranean Plate"
-WEEK2_FRI="Fried Rice"
+# Calculate day of week for first day of month using Zeller's congruence
+# Returns 0=Saturday, 1=Sunday, ..., 6=Friday
+get_day_of_week() {
+    local d=$1
+    local m=$2
+    local y=$3
+    
+    # Zeller's congruence adjustment
+    local zeller_m=$m
+    local zeller_y=$y
+    
+    if [ "$m" -lt 3 ]; then
+        zeller_m=$((m + 12))
+        zeller_y=$((y - 1))
+    fi
+    
+    local k=$((zeller_y % 100))
+    local j=$((zeller_y / 100))
+    
+    # Zeller: h = (q + 13(m+1)/5 + K + K/4 + J/4 + 5J) mod 7
+    local h=$(( (d + (13 * (zeller_m + 1) / 5) + k + (k / 4) + (j / 4) + (5 * j)) % 7 ))
+    
+    # Convert to 0=Sun, 1=Mon, ..., 6=Sat
+    local dow=$(( (h + 6) % 7 ))
+    echo "$dow"
+}
 
-# Calorie estimates (placeholder - should be in recipe files)
+# First day of month day of week
+first_dow=$(get_day_of_week 1 "$MONTH_NUM" "$YEAR")
+
+# Define 2-week rotation - organized by day of week (0=Sun to 6=Sat)
+get_meal() {
+    local dow=$1
+    local week=$2
+    
+    if [ "$week" -eq 1 ]; then
+        case $dow in
+            0) echo "Moroccan Lamb" ;;
+            1) echo "Lentil Soup" ;;
+            2) echo "Stir-fry" ;;
+            3) echo "Pasta e Fagioli" ;;
+            4) echo "Burrito Bowls" ;;
+            5) echo "Simple Dal" ;;
+            6) echo "Butter Chicken Curry" ;;
+        esac
+    else
+        case $dow in
+            0) echo "Lamb & Beef Pot" ;;
+            1) echo "Chana Masala" ;;
+            2) echo "Vegetable Curry" ;;
+            3) echo "Bean Chili" ;;
+            4) echo "Mediterranean Plate" ;;
+            5) echo "Fried Rice" ;;
+            6) echo "Seafood Pot" ;;
+        esac
+    fi
+}
+
+# Calorie estimates
 get_calories() {
     case "$1" in
         "Butter Chicken Curry") echo 650 ;;
@@ -140,6 +181,22 @@ get_calories() {
     esac
 }
 
+# Determine starting week based on which Saturday has occurred
+saturdays_passed=0
+for ((d=1; d<START_DAY; d++)); do
+    dow=$(( (first_dow + d - 1) % 7 ))
+    if [ "$dow" -eq 6 ]; then
+        saturdays_passed=$((saturdays_passed + 1))
+    fi
+done
+
+# If we've passed an odd number of Saturdays, start on week 2
+if [ $((saturdays_passed % 2)) -eq 0 ]; then
+    current_week=1
+else
+    current_week=2
+fi
+
 # Generate output filename
 MONTH_LOWER=$(echo "$MONTH" | tr '[:upper:]' '[:lower:]')
 OUTPUT_FILE="$PROJECT_DIR/output/${MONTH_LOWER}-${YEAR}-meal-plan.txt"
@@ -152,76 +209,24 @@ $(echo "$MONTH $YEAR" | tr '[:lower:]' '[:upper:]') MEAL PLAN
 
 People: $NUM_PEOPLE
 Lunch portions: ~$LUNCH_PORTIONS (leftovers from previous dinner)
+Rotation: 2-week cycle (Sat-Sun specialty, Mon-Fri core)
+
+================================================================================
+
+WEEK 1 (Sat-Fri): Butter Chicken → Moroccan Lamb → Lentil → Stir-fry → Pasta → Burrito → Simple Dal
+WEEK 2 (Sat-Fri): Seafood Pot → Lamb & Beef → Chana Masala → Veg Curry → Bean Chili → Med Plate → Fried Rice
 
 ================================================================================
 
 EOF
 
-# Calculate starting day of week (1=Monday, 7=Sunday)
-# Simple approximation: use day 1 of month to calculate
-day_of_week=$(date -d "$YEAR-$MONTH_NUM-01" +%u 2>/dev/null || echo "1")
-
-# Adjust for start day
-offset=$((START_DAY - 1))
-day_of_week=$(((day_of_week + offset - 1) % 7 + 1))
-
-current_week=1
-
+# Generate daily plan
 for ((day=START_DAY; day<=LAST_DAY; day++)); do
-    # Determine day name
-    day_name=$(date -d "$YEAR-$MONTH_NUM-$day" +%a 2>/dev/null || echo "Day")
+    dow=$(( (first_dow + day - 1) % 7 ))
+    day_name="${DAY_NAMES[$dow]}"
     
-    # Determine meal based on day of week
-    if [ "$day_of_week" -eq 6 ]; then
-        # Saturday
-        if [ "$current_week" -eq 1 ]; then
-            meal="$WEEK1_SAT"
-        else
-            meal="$WEEK2_SAT"
-        fi
-    elif [ "$day_of_week" -eq 7 ]; then
-        # Sunday
-        if [ "$current_week" -eq 1 ]; then
-            meal="$WEEK1_SUN"
-        else
-            meal="$WEEK2_SUN"
-        fi
-    elif [ "$day_of_week" -eq 1 ]; then
-        # Monday
-        if [ "$current_week" -eq 1 ]; then
-            meal="$WEEK1_MON"
-        else
-            meal="$WEEK2_MON"
-        fi
-    elif [ "$day_of_week" -eq 2 ]; then
-        # Tuesday
-        if [ "$current_week" -eq 1 ]; then
-            meal="$WEEK1_TUE"
-        else
-            meal="$WEEK2_TUE"
-        fi
-    elif [ "$day_of_week" -eq 3 ]; then
-        # Wednesday
-        if [ "$current_week" -eq 1 ]; then
-            meal="$WEEK1_WED"
-        else
-            meal="$WEEK2_WED"
-        fi
-    elif [ "$day_of_week" -eq 4 ]; then
-        # Thursday
-        if [ "$current_week" -eq 1 ]; then
-            meal="$WEEK1_THU"
-        else
-            meal="$WEEK2_THU"
-        fi
-    else
-        # Friday (5)
-        if [ "$current_week" -eq 1 ]; then
-            meal="$WEEK1_FRI"
-        else
-            meal="$WEEK2_FRI"
-        fi
-    fi
+    # Get meal for this day
+    meal=$(get_meal "$dow" "$current_week")
     
     # Get calories
     calories=$(get_calories "$meal")
@@ -236,11 +241,8 @@ for ((day=START_DAY; day<=LAST_DAY; day++)); do
     
     echo "" >> "$OUTPUT_FILE"
     
-    # Increment day of week
-    day_of_week=$((day_of_week + 1))
-    if [ "$day_of_week" -gt 7 ]; then
-        day_of_week=1
-        # Toggle week
+    # Toggle week after Saturday
+    if [ "$dow" -eq 6 ]; then
         if [ "$current_week" -eq 1 ]; then
             current_week=2
         else
@@ -308,5 +310,5 @@ echo "Output: $OUTPUT_FILE"
 echo ""
 ls -lh "$OUTPUT_FILE"
 echo ""
-echo "Preview:"
-head -40 "$OUTPUT_FILE"
+echo "Preview (first 25 lines):"
+head -30 "$OUTPUT_FILE"
