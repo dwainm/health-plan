@@ -6,7 +6,6 @@ Trusted recipes for specific occasions. These are our "greatest hits"—tested, 
 
 | Recipe | Origin | Best For |
 |--------|--------|----------|
-| [Perfect Pressure Cooker Rice](pressure-cooker-rice.md) | Technique | Base for all curries and stews |
 | [Butter Chicken Curry](butter-chicken.md) | Indian | Guest dinners, special occasions |
 | [Moroccan Lamb](moroccan-lamb.md) | North African | Slow Sunday, impressing guests |
 | [Lamb/Beef Pot](lamb-beef-pot.md) | Fusion | Hearty winter meal |

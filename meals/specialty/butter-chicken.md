@@ -38,7 +38,7 @@ Rich, creamy, crowd-pleasing. Our go-to for impressing guests.
 ### To Serve
 | Ingredient | Notes |
 |------------|-------|
-| Jasmine rice | [Pressure cooker method](pressure-cooker-rice.md) |
+| Jasmine rice | [Pressure cooker method](../../docs/techniques/pressure-cooker-rice.md) |
 | Coconut milk | Small drizzle on top |
 | Fresh thyme | Garnish |
 | Aniseed | Pinch for aroma |

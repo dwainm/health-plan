@@ -73,7 +73,7 @@ Mix together:
 
 ## Serving
 
-- Serve over couscous or [pressure cooker rice](pressure-cooker-rice.md)
+- Serve over couscous or [pressure cooker rice](../../docs/techniques/pressure-cooker-rice.md)
 - Scatter extra coriander on top
 - Lemon wedges on the side
 
