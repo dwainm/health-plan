@@ -8,7 +8,7 @@ Rotation: 2-week cycle (Sat-Sun specialty, Mon-Fri core)
 ================================================================================
 
 WEEK 1 (Sat-Fri): Butter Chicken → Moroccan Lamb → Lentil → Stir-fry → Pasta → Burrito → Simple Dal
-WEEK 2 (Sat-Fri): Seafood Pot → Lamb & Beef → Chana Masala → Veg Curry → Bean Chili → Med Plate → Fried Rice
+WEEK 2 (Sat-Fri): Vegetable Tagine → Lamb & Beef → Chana Masala → Veg Curry → Bean Chili → Med Plate → Fried Rice
 
 ================================================================================
 
@@ -50,7 +50,7 @@ Thu 12: Mediterranean Plate       ~510 cal/serving
 Fri 13: Fried Rice                ~520 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Sat 14: Seafood Pot               ~680 cal/serving
+Sat 14: Vegetable Tagine          ~480 cal/serving
          Lunch: Leftovers (~3 portions)
 
 Sun 15: Moroccan Lamb             ~720 cal/serving
@@ -92,7 +92,7 @@ Thu 26: Mediterranean Plate       ~510 cal/serving
 Fri 27: Fried Rice                ~520 cal/serving
          Lunch: Leftovers (~3 portions)
 
-Sat 28: Seafood Pot               ~680 cal/serving
+Sat 28: Vegetable Tagine          ~480 cal/serving
          Lunch: Leftovers (~3 portions)
 
 Sun 29: Moroccan Lamb             ~720 cal/serving
@@ -106,50 +106,78 @@ Tue 31: Stir-fry                  ~480 cal/serving
 
 
 ================================================================================
-SHOPPING LIST (ESTIMATED)
+WEEKLY SHOPPING (STAPLES)
 ================================================================================
+
+Buy every week:
 
 GRAINS:
   [ ] Rice: ___ kg
-  [ ] Pasta: ___ kg
-  [ ] Bread flour: ___ kg
-  [ ] Whole wheat flour: ___ kg
-  [ ] Oats: ___ kg
+  [ ] Bread flour: ___ kg (for sourdough)
 
 LEGUMES:
   [ ] Lentils (red/green): ___ kg
   [ ] Chickpeas: ___ kg
   [ ] Black beans: ___ kg
-  [ ] Kidney beans: ___ kg
 
-PROTEINS:
-  [ ] Chicken: ___ kg
-  [ ] Lamb/beef: ___ kg
-  [ ] Fish/seafood: ___ kg
-  [ ] Eggs: ___ dozen
-
-VEGETABLES:
+VEGETABLES (FRESH):
   [ ] Onions: ___ kg
   [ ] Garlic: ___ bulbs
-  [ ] Ginger: ___ g
   [ ] Tomatoes: ___ kg
-  [ ] Peppers: ___ kg
-  [ ] Carrots: ___ kg
   [ ] Leafy greens: ___ bunches
-  [ ] Potatoes: ___ kg
+  [ ] Seasonal vegetables: ___
 
 OTHER:
-  [ ] Coconut milk: ___ cans
+  [ ] Eggs: ___ dozen
   [ ] Spices: check inventory
   [ ] Olive oil: check level
-  [ ] Salt: check level
+
+================================================================================
+WEEKEND SHOPPING (FLEXIBLE)
+================================================================================
+
+Buy as needed for weekend meals:
+
+WEEK 1 WEEKEND OPTIONS:
+  [ ] Chicken: ___ kg (for Butter Chicken)
+  [ ] Lamb: ___ kg (for Moroccan Lamb)
+  [ ] Fresh coriander: ___ bunches
+  [ ] Cashews: ___ g
+  [ ] Dates: ___ g
+  [ ] Coconut milk: ___ cans
+
+WEEK 2 WEEKEND OPTIONS:
+  [ ] Lamb/beef: ___ kg (for Lamb & Beef Pot)
+  [ ] Mixed vegetables: ___ (for Tagine)
+  [ ] Preserved lemons: ___ jar (optional)
+  [ ] Olives: ___ g (optional)
+
+OR substitute with:
+  [ ] Braai meat: ___ kg
+  [ ] Guest meal ingredients: ___
+  [ ] Restaurant/takeout: ___
+
+================================================================================
+PANTRY CHECK (MONTHLY)
+================================================================================
+
+Stock up monthly:
+  [ ] Pasta: ___ kg
+  [ ] Whole wheat flour: ___ kg
+  [ ] Oats: ___ kg
+  [ ] Kidney beans: ___ kg
+  [ ] Canned tomatoes: ___ tins
+  [ ] Tomato paste: ___ tins
+  [ ] Stock cubes: ___
+  [ ] Salt: ___ kg
 
 ================================================================================
 
 NOTES:
-- Adjust quantities based on actual appetite
-- Buy vegetables fresh weekly
+- Weekly staples: consistent, predictable
+- Weekend options: flexible, decide based on plans
 - Check freezer before buying meat
+- Buy vegetables fresh weekly
 - Lunch = leftovers from previous dinner
 
-Generated: Wed 18 Feb 2026 11:32:00 SAST
+Generated: Wed 18 Feb 2026 11:33:45 SAST

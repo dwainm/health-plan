@@ -155,7 +155,7 @@ get_meal() {
             3) echo "Bean Chili" ;;
             4) echo "Mediterranean Plate" ;;
             5) echo "Fried Rice" ;;
-            6) echo "Seafood Pot" ;;
+            6) echo "Vegetable Tagine" ;;
         esac
     fi
 }
@@ -170,7 +170,7 @@ get_calories() {
         "Pasta e Fagioli") echo 520 ;;
         "Burrito Bowls") echo 580 ;;
         "Simple Dal") echo 450 ;;
-        "Seafood Pot") echo 680 ;;
+        "Vegetable Tagine") echo 480 ;;
         "Lamb & Beef Pot") echo 750 ;;
         "Chana Masala") echo 460 ;;
         "Vegetable Curry") echo 440 ;;
@@ -214,7 +214,7 @@ Rotation: 2-week cycle (Sat-Sun specialty, Mon-Fri core)
 ================================================================================
 
 WEEK 1 (Sat-Fri): Butter Chicken → Moroccan Lamb → Lentil → Stir-fry → Pasta → Burrito → Simple Dal
-WEEK 2 (Sat-Fri): Seafood Pot → Lamb & Beef → Chana Masala → Veg Curry → Bean Chili → Med Plate → Fried Rice
+WEEK 2 (Sat-Fri): Vegetable Tagine → Lamb & Beef → Chana Masala → Veg Curry → Bean Chili → Med Plate → Fried Rice
 
 ================================================================================
 
@@ -255,50 +255,78 @@ done
 cat >> "$OUTPUT_FILE" << EOF
 
 ================================================================================
-SHOPPING LIST (ESTIMATED)
+WEEKLY SHOPPING (STAPLES)
 ================================================================================
+
+Buy every week:
 
 GRAINS:
   [ ] Rice: ___ kg
-  [ ] Pasta: ___ kg
-  [ ] Bread flour: ___ kg
-  [ ] Whole wheat flour: ___ kg
-  [ ] Oats: ___ kg
+  [ ] Bread flour: ___ kg (for sourdough)
 
 LEGUMES:
   [ ] Lentils (red/green): ___ kg
   [ ] Chickpeas: ___ kg
   [ ] Black beans: ___ kg
-  [ ] Kidney beans: ___ kg
 
-PROTEINS:
-  [ ] Chicken: ___ kg
-  [ ] Lamb/beef: ___ kg
-  [ ] Fish/seafood: ___ kg
-  [ ] Eggs: ___ dozen
-
-VEGETABLES:
+VEGETABLES (FRESH):
   [ ] Onions: ___ kg
   [ ] Garlic: ___ bulbs
-  [ ] Ginger: ___ g
   [ ] Tomatoes: ___ kg
-  [ ] Peppers: ___ kg
-  [ ] Carrots: ___ kg
   [ ] Leafy greens: ___ bunches
-  [ ] Potatoes: ___ kg
+  [ ] Seasonal vegetables: ___
 
 OTHER:
-  [ ] Coconut milk: ___ cans
+  [ ] Eggs: ___ dozen
   [ ] Spices: check inventory
   [ ] Olive oil: check level
-  [ ] Salt: check level
+
+================================================================================
+WEEKEND SHOPPING (FLEXIBLE)
+================================================================================
+
+Buy as needed for weekend meals:
+
+WEEK 1 WEEKEND OPTIONS:
+  [ ] Chicken: ___ kg (for Butter Chicken)
+  [ ] Lamb: ___ kg (for Moroccan Lamb)
+  [ ] Fresh coriander: ___ bunches
+  [ ] Cashews: ___ g
+  [ ] Dates: ___ g
+  [ ] Coconut milk: ___ cans
+
+WEEK 2 WEEKEND OPTIONS:
+  [ ] Lamb/beef: ___ kg (for Lamb & Beef Pot)
+  [ ] Mixed vegetables: ___ (for Tagine)
+  [ ] Preserved lemons: ___ jar (optional)
+  [ ] Olives: ___ g (optional)
+
+OR substitute with:
+  [ ] Braai meat: ___ kg
+  [ ] Guest meal ingredients: ___
+  [ ] Restaurant/takeout: ___
+
+================================================================================
+PANTRY CHECK (MONTHLY)
+================================================================================
+
+Stock up monthly:
+  [ ] Pasta: ___ kg
+  [ ] Whole wheat flour: ___ kg
+  [ ] Oats: ___ kg
+  [ ] Kidney beans: ___ kg
+  [ ] Canned tomatoes: ___ tins
+  [ ] Tomato paste: ___ tins
+  [ ] Stock cubes: ___
+  [ ] Salt: ___ kg
 
 ================================================================================
 
 NOTES:
-- Adjust quantities based on actual appetite
-- Buy vegetables fresh weekly
+- Weekly staples: consistent, predictable
+- Weekend options: flexible, decide based on plans
 - Check freezer before buying meat
+- Buy vegetables fresh weekly
 - Lunch = leftovers from previous dinner
 
 Generated: $(date)
