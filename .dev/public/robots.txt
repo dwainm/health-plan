@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://health-plan.dwain-maralack.workers.dev/sitemap-index.xml

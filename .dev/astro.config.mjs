@@ -1,18 +1,20 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   root: '.',
   srcDir: './src',
   publicDir: './public',
   outDir: './dist',
-  site: 'https://health-plan.pages.dev',
+  site: 'https://health-plan.dwain-maralack.workers.dev',
   vite: {
     server: {
       allowedHosts: ['.trycloudflare.com'],
     },
   },
   integrations: [
+    sitemap(),
     starlight({
       title: 'Health Plan',
       description: 'A simple, sustainable approach to nutrition and health',

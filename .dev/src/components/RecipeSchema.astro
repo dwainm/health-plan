@@ -1,0 +1,114 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  prepTime?: string;
+  cookTime?: string;
+  totalTime?: string;
+  servings?: string;
+  calories?: string;
+  ingredients?: string[];
+  instructions?: string[];
+  cuisine?: string;
+  category?: string;
+  tags?: string[];
+}
+
+const { 
+  title, 
+  description = '', 
+  image,
+  prepTime,
+  cookTime,
+  totalTime,
+  servings,
+  calories,
+  ingredients = [],
+  instructions = [],
+  cuisine,
+  category,
+  tags = []
+} = Astro.props;
+
+// Parse time strings like "30 min" to ISO 8601 duration format
+function parseDuration(timeStr?: string): string | undefined {
+  if (!timeStr) return undefined;
+  const match = timeStr.match(/(\d+)\s*min/);
+  if (match) {
+    return `PT${match[1]}M`;
+  }
+  const hourMatch = timeStr.match(/(\d+)\s*hour/);
+  if (hourMatch) {
+    return `PT${hourMatch[1]}H`;
+  }
+  return undefined;
+}
+
+const recipeData: any = {
+  '@context': 'https://schema.org',
+  '@type': 'Recipe',
+  name: title,
+  description: description,
+  author: {
+    '@type': 'Person',
+    name: 'Dwain Maralack'
+  },
+  datePublished: new Date().toISOString().split('T')[0],
+};
+
+if (image) {
+  recipeData.image = `https://health-plan.dwain-maralack.workers.dev${image}`;
+}
+
+if (prepTime) {
+  recipeData.prepTime = parseDuration(prepTime);
+}
+
+if (cookTime) {
+  recipeData.cookTime = parseDuration(cookTime);
+}
+
+if (totalTime) {
+  recipeData.totalTime = parseDuration(totalTime);
+}
+
+if (servings) {
+  recipeData.recipeYield = servings;
+}
+
+if (calories) {
+  recipeData.nutrition = {
+    '@type': 'NutritionInformation',
+    calories: calories
+  };
+}
+
+if (ingredients.length > 0) {
+  recipeData.recipeIngredient = ingredients;
+}
+
+if (instructions.length > 0) {
+  recipeData.recipeInstructions = instructions.map((step, index) => ({
+    '@type': 'HowToStep',
+    position: index + 1,
+    text: step
+  }));
+}
+
+if (cuisine) {
+  recipeData.recipeCuisine = cuisine;
+}
+
+if (category) {
+  recipeData.recipeCategory = category;
+}
+
+if (tags.length > 0) {
+  recipeData.keywords = tags.join(', ');
+}
+
+const jsonLd = JSON.stringify(recipeData, null, 2);
+---
+
+<script type="application/ld+json" set:html={jsonLd} />
