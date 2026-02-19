@@ -1,7 +1,0 @@
-{
-  "name": "health-plan",
-  "compatibility_date": "2026-02-19",
-  "assets": {
-    "directory": "./.dev/dist"
-  }
-}
