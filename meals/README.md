@@ -1,4 +1,4 @@
-# The 30 Meals
+# Meals
 
 Our core rotation. These are automatic, repeatable, and scalable.
 
@@ -24,7 +24,7 @@ Our core rotation. These are automatic, repeatable, and scalable.
 
 → [Lunch recipes](lunches/)
 
-## Dinners (22 slots, 6-8 cores)
+## Dinners (14 slots, 6-8 cores)
 
 Our dinner rotation centers on **6-8 core meals** with seasonal variations.
 
@@ -78,7 +78,7 @@ DINNERS
 - [ ] D6: Burrito Bowls
 - [ ] D7: Mediterranean Plate
 - [ ] D8: Simple Dal
-- [ ] D9-D22: Variations and seasonal additions
+- [ ] D9-D14: Variations and seasonal additions
 ```
 
 ## Rules for Adding Meals
@@ -87,7 +87,7 @@ DINNERS
 2. Must use ingredients on our standard shopping list
 3. Must be acceptable to all 4 kids (or easily modified)
 4. Must work as leftovers for lunch
-5. No more than 30 total
+5. No more than 22 total
 
 ---
 

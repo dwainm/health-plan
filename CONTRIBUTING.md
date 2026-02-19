@@ -48,7 +48,7 @@ Brief description.
 - Recipes requiring special equipment
 - Ingredients not at standard grocery store
 - Separate meals for kids and adults
-- More than 30 daily meals or 10 guest meals
+- More than 22 daily meals or 10 guest meals
 
 ---
 

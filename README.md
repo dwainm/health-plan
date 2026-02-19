@@ -1,57 +1,66 @@
 # Health Plan
 
-A simple, sustainable approach to nutrition and health.
-
-## Philosophy
-
 > "Do everything as unto Him. This world will pass."
 
-This cookbook is built on a few core principles that make healthy eating automatic—not a constant decision.
+A simple, sustainable approach to nutrition and health.
 
-## Quick Start
+Health is stewardship, not obsession. We eat well to serve better, longer. The goal is faithfulness, not a magazine cover.
 
-- [Our Principles](docs/principles.md) — The foundation
-- [The 30 Meals](meals/README.md) — Daily meals
-- [The 10 Guest Meals](meals/guest/README.md) — For hosting
-- [Specialty Meals](meals/specialty/README.md) — Trusted favorites
-- [Techniques](docs/techniques/README.md) — Building blocks
-- [Bread & Baking](bread/README.md) — Sourdough whole grain
+## Meals
 
-## Project Structure
+Our monthly rotation — automatic, repeatable, scalable.
 
-```
-.
-├── docs/
-│   └── principles.md          # Core philosophy and guidelines
-├── meals/
-│   ├── breakfasts/            # 4 core breakfast patterns
-│   ├── lunches/               # 4 core lunch patterns
-│   ├── dinners/               # 22 dinner slots (6-8 cores + variations)
-│   └── guest/                 # 10 meals for entertaining
-├── bread/
-│   ├── README.md              # Bread philosophy and basics
-│   ├── sourdough-bread.md     # Whole grain sourdough loaf
-│   └── baguettes.md           # Whole grain baguettes
-├── recipes/                   # Detailed recipes (linked from meals)
-└── scripts/
-    ├── build-site.sh          # Generate static website
-    └── build-pdf.sh           # Generate PDF cookbook
-```
+### Breakfasts (4)
+- Oats
+- Whole grain toast  
+- Pancakes
+- Smoothie bowl
 
-## Building
+### Lunches (4)
+- Leftovers
+- Soup + bread
+- Grain bowls
+- Simple sandwich
 
-```bash
-# Generate website
-./scripts/build-site.sh
+### Dinners (14)
+- Lentil/Bean Soup
+- Curry
+- Chili
+- Pasta
+- Stir-fry
+- Burrito Bowls
+- Mediterranean Plate
+- Simple Dal + Rice
+- Plus 6 seasonal variations
 
-# Generate PDF
-./scripts/build-pdf.sh
-```
+## Core Principles
 
-## Status
+### Calorie Density Is the Key
+We don't count calories. We choose foods that fill us up with fewer calories automatically.
 
-This is a living document. We add recipes slowly and only keep what works.
+| Eat More (Low Density) | Eat Less (High Density) |
+|------------------------|------------------------|
+| Vegetables, fruits | Oil, butter |
+| Starches (potatoes, rice, beans) | Meat, cheese |
+| Legumes, lentils | Processed snacks |
+| Soups, stews | Fried foods |
 
----
+### Plant-Based by Default
+Daily meals center on whole grains, legumes, vegetables, and starches. Meat is a condiment, a celebration—not the plate's center.
 
-*Simple, sustainable, faithful.*
+### The Meal System
+**Constraint is freedom.**
+- **Daily meals** — automatic, boring, effective
+- **Special meals** — for guests, celebrations, and special occasions
+
+No more. New recipes only by deliberate choice.
+
+### Resistance Training Over Cardio
+Muscle burns calories at rest. Cardio burns calories only while doing it.
+
+### Whole Grains, Always
+Same calories on paper. Fewer calories in practice because you get full faster.
+
+### Grace Over Perfection
+Miss a day? Eat the wrong thing? Start again at the next meal. No guilt, no spiral. This is a direction, not a destination.
+

@@ -1,6 +1,12 @@
 # Build outputs
 _site/
+dist/
 *.pdf
+
+# Dev environment (see .dev/ for site build)
+.dev/node_modules/
+.dev/dist/
+.dev/.astro/
 
 # OS files
 .DS_Store

@@ -4,6 +4,8 @@
 
 Refreshing, nutrient-dense, and highly photogenic. Best in warm weather when you want something cool.
 
+![Smoothie Bowl](/images/recipes/smoothie-bowl.jpg)
+
 ---
 
 ## Sources

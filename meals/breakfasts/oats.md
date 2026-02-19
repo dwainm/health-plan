@@ -1,8 +1,12 @@
 # Oats
 
-**Plant-based | Whole foods | Low calorie density**
+**Plant-based | Whole foods**
 
 Our weekday default breakfast. Filling, versatile, and ready in minutes.
+
+![Oats](/images/recipes/oats.jpg)
+
+For a lighter, lower-calorie version, see [Steel-Cut Oats (Stovetop)](#steel-cut-oats-stovetop).
 
 ---
 
@@ -11,6 +15,47 @@ Our weekday default breakfast. Filling, versatile, and ready in minutes.
 - **Overnight Oats method**: Adapted from [Oh She Glows](https://ohsheglows.com) by Angela Liddon (NYT Bestselling Author)
 - **Baked Oatmeal variation**: Adapted from [NutritionFacts.org](https://nutritionfacts.org/recipes/) / How Not to Die Cookbook by Dr. Michael Greger
 - **BROL concept**: Adapted from [NutritionFacts.org](https://nutritionfacts.org/recipes/) by Dr. Michael Greger
+
+---
+
+## Peanut Butter Banana Power Bowl
+
+**Serves 1 | ~500 calories | Ready in 10 minutes**
+
+This is our go-to high-energy breakfast. The peanut butter and banana combo is addictive, naturally sweet, and keeps you full for hours.
+
+### Ingredients
+
+| Ingredient | Amount | Notes |
+|------------|--------|-------|
+| Rolled oats (old-fashioned) | ½ cup | Not instant—better texture |
+| Unsweetened almond milk | 1 cup | Or any milk you prefer |
+| Water | ½ cup | For creaminess |
+| Ripe banana, mashed | 1 medium | Plus extra slices for topping |
+| Natural peanut butter | 2 tbsp | ~190 calories of flavor |
+| Maple syrup or honey | 1 tbsp | Start here, adjust to taste |
+| Cinnamon | ½ tsp | Warm, flavorful depth |
+| Salt | pinch | Enhances everything |
+| **Optional boosts** | | |
+| Chia seeds | 1 tbsp | +60 cal, omega-3s, creaminess |
+| Chopped walnuts | 1 tbsp | +80 cal, crunch |
+
+### Method
+
+1. **Toast oats** (optional but recommended): Heat dry pot over medium heat. Add oats and toast 2-3 minutes, stirring occasionally, until fragrant and lightly golden. This deepens the flavor.
+2. **Combine base**: Add almond milk, water, mashed banana, cinnamon, and salt to the pot with toasted oats
+3. **Cook**: Bring to gentle boil, reduce to low, simmer 5-8 minutes until thick and creamy. Stir occasionally. Add splash more liquid if too thick.
+4. **Enrich**: Remove from heat. Stir in peanut butter and maple syrup until fully melted and incorporated—this makes it velvety.
+5. **Taste**: Adjust sweetness if needed (banana keeps it naturally sweet)
+6. **Top**: Spoon into bowl. Add banana slices, drizzle of extra peanut butter, sprinkle of cinnamon, and any nuts/chia for crunch.
+
+### Nutrition (with chia seeds)
+
+- **Calories**: ~500
+- **Protein**: ~15g
+- **Carbs**: ~65g
+- **Fat**: ~22g (healthy fats from PB)
+- **Fiber**: ~10g
 
 ---
 

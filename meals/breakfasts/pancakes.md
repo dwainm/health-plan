@@ -4,6 +4,8 @@
 
 Weekend breakfast for the family. No refined flour, no added oil, still delicious.
 
+![Pancakes](/images/recipes/pancakes.jpg)
+
 ---
 
 ## Sources
