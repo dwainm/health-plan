@@ -1,0 +1,127 @@
+---
+import { getCollection } from 'astro:content';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+
+const allDocs = await getCollection('docs');
+
+const mealCategories = [
+  { id: 'breakfasts', label: 'Breakfasts' },
+  { id: 'lunches', label: 'Lunches' },
+  { id: 'dinners', label: 'Dinners' },
+  { id: 'soups', label: 'Soups' },
+  { id: 'sides', label: 'Sides' },
+  { id: 'specialmeals', label: 'Special Meals' },
+  { id: 'treats', label: 'Treats' },
+];
+
+// Helper to extract image from markdown body
+function extractImage(body: string): string | null {
+  const match = body.match(/!\[.*?\]\((\/images\/recipes\/[^)]+)\)/);
+  return match ? match[1] : null;
+}
+
+// Helper to extract tags/description from bold line
+function extractTags(body: string): string | null {
+  // Look for bold line after frontmatter (usually **Plant-based | ...**)
+  const lines = body.split('\n');
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith('**') && trimmed.includes('|')) {
+      return trimmed.replace(/\*\*/g, '');
+    }
+  }
+  return null;
+}
+
+// Helper to extract prep/cook time
+function extractTime(body: string): string | null {
+  const timeMatch = body.match(/\*\*Prep\*\*:\s*([^|]+)\s*\|\s*\*\*Cook\*\*:\s*([^|]+)/);
+  if (timeMatch) {
+    return `${timeMatch[1].trim()} prep / ${timeMatch[2].trim()} cook`;
+  }
+  return null;
+}
+
+const mealsByCategory = mealCategories.map(category => {
+  const meals = allDocs
+    .filter(doc => doc.id.startsWith(`meals/${category.id}/`) && doc.id !== `meals/${category.id}/readme`)
+    .map(doc => ({
+      ...doc,
+      image: extractImage(doc.body || ''),
+      tags: extractTags(doc.body || ''),
+      time: extractTime(doc.body || ''),
+    }))
+    .sort((a, b) => a.data.title.localeCompare(b.data.title));
+  return { ...category, meals };
+}).filter(cat => cat.meals.length > 0);
+
+const totalMeals = mealsByCategory.reduce((sum, cat) => sum + cat.meals.length, 0);
+---
+
+<StarlightPage frontmatter={{ title: 'Meals', description: 'Our core rotation. These are automatic, repeatable, and scalable.' }}>
+  <p>Our core rotation. These are automatic, repeatable, and scalable.</p>
+  
+  <p><strong>Total: {totalMeals} recipes</strong></p>
+
+  {mealsByCategory.map(category => (
+    <section style="margin-top: 2rem;">
+      <h2>{category.label} ({category.meals.length})</h2>
+      
+      <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr style="border-bottom: 2px solid var(--sl-color-gray-5);">
+            <th style="text-align: left; padding: 0.75rem; width: 80px;">Photo</th>
+            <th style="text-align: left; padding: 0.75rem;">Recipe</th>
+            <th style="text-align: left; padding: 0.75rem; width: 200px;">Tags</th>
+            <th style="text-align: left; padding: 0.75rem; width: 150px;">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          {category.meals.map(meal => (
+            <tr style="border-bottom: 1px solid var(--sl-color-gray-6);">
+              <td style="padding: 0.75rem;">
+                {meal.image ? (
+                  <a href={`/${meal.id}`}>
+                    <img 
+                      src={meal.image} 
+                      alt={meal.data.title}
+                      style="width: 60px; height: 60px; object-fit: cover; border-radius: 4px;"
+                    />
+                  </a>
+                ) : (
+                  <div style="width: 60px; height: 60px; background: var(--sl-color-gray-5); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; color: var(--sl-color-gray-3);">
+                    No image
+                  </div>
+                )}
+              </td>
+              <td style="padding: 0.75rem;">
+                <a href={`/${meal.id}`} style="font-weight: 600; text-decoration: none;">
+                  {meal.data.title}
+                </a>
+              </td>
+              <td style="padding: 0.75rem; font-size: 0.85rem; color: var(--sl-color-gray-2);">
+                {meal.tags || '—'}
+              </td>
+              <td style="padding: 0.75rem; font-size: 0.85rem; color: var(--sl-color-gray-2);">
+                {meal.time || '—'}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  ))}
+
+  <hr style="margin-top: 2rem;" />
+
+  <h2>Rules for Adding Meals</h2>
+  <ol>
+    <li>Must feed 6 people without stress</li>
+    <li>Must use ingredients on our standard shopping list</li>
+    <li>Must be acceptable to all 4 kids (or easily modified)</li>
+    <li>Must work as leftovers for lunch</li>
+    <li>No more than 22 total</li>
+  </ol>
+
+  <p><em>Simple, repeatable, sustainable.</em></p>
+</StarlightPage>

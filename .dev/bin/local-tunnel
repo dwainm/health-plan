@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Create Cloudflare Tunnel to access local Health Plan site from mobile/external devices
+# Usage: .dev/bin/local-tunnel (from project root) or bin/local-tunnel (from .dev/)
+
+# Determine script directory and port
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PORT=4321  # Astro default port
+
+# Check if cloudflared is installed
+if ! command -v cloudflared &> /dev/null; then
+  echo "cloudflared not found. Installing via Homebrew..."
+  brew install cloudflared
+fi
+
+echo "Creating Cloudflare Tunnel to local Health Plan site..."
+echo ""
+echo "  Local server: http://localhost:${PORT}"
+echo ""
+echo "IMPORTANT: Make sure the dev server is running (cd .dev && npm run dev)"
+echo ""
+echo "The public URL will be displayed below and copied to clipboard."
+echo "Press Ctrl+C to close the tunnel"
+echo ""
+
+# Start cloudflared and capture output, copying URL to clipboard when found
+cloudflared tunnel --url http://localhost:${PORT} 2>&1 | while IFS= read -r line; do
+  echo "$line"
+  if [[ "$line" =~ (https://[a-zA-Z0-9-]+\.trycloudflare\.com) ]]; then
+    url="${BASH_REMATCH[1]}"
+    echo "$url" | pbcopy
+    echo ""
+    echo "✓ URL copied to clipboard: $url"
+    echo ""
+  fi
+done
