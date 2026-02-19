@@ -1,0 +1,39 @@
+# Health Plan
+
+> A simple, sustainable approach to nutrition and health built around a monthly meal rotation system. The plan emphasizes calorie density, plant-based eating by default, resistance training, whole grains, and grace over perfection. Designed for a family of 6 with automatic, repeatable meals that scale.
+
+## Overview
+
+The Health Plan is built on constraint as freedom. Daily meals are automatic, boring, and effective. Special meals are reserved for guests, celebrations, and occasions. The entire system centers on 30 core recipes (22 meals) that rotate monthly, making meal planning effortless.
+
+Key principles:
+- Calorie density over calorie counting
+- Plant-based by default (meat as condiment, not centerpiece)  
+- Whole grains always (same calories, more filling)
+- Resistance training over cardio
+- Grace over perfection
+
+## Meal Categories
+
+- [Meals Overview](https://health-plan.dwain-maralack.workers.dev/meals/readme/): Complete meal listing with 61 recipes across all categories
+- [Breakfasts](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/): 7 recipes including oats, pancakes, waffles, and smoothie bowls
+- [Lunches](https://health-plan.dwain-maralack.workers.dev/meals/lunches/): 6 recipes with tacos, quesadillas, casseroles, and sandwiches
+- [Dinners](https://health-plan.dwain-maralack.workers.dev/meals/dinners/): 19 core dinner recipes including curries, stews, pasta, and rice dishes
+- [Soups](https://health-plan.dwain-maralack.workers.dev/meals/soups/): Standalone soup recipes
+- [Sides](https://health-plan.dwain-maralack.workers.dev/meals/sides/): 6 complementary dishes including falafels, rice pilaf, and roasted vegetables
+- [Special Meals](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/): Guest meals and celebration dishes
+- [Treats](https://health-plan.dwain-maralack.workers.dev/meals/treats/): 18 dessert recipes including cakes, cookies, nice creams, and bars
+
+## Tools
+
+- [Meal Planner](https://health-plan.dwain-maralack.workers.dev/planner/): Interactive meal planning interface
+- [Calendar](https://health-plan.dwain-maralack.workers.dev/calendar/): Monthly meal calendar view
+
+## Bread & Baking
+
+- [Bread & Baking Overview](https://health-plan.dwain-maralack.workers.dev/bread/): Sourdough and whole grain bread recipes
+
+## Optional
+
+- [Core Principles](https://health-plan.dwain-maralack.workers.dev/docs/principles/): Detailed philosophy and approach
+- [Techniques](https://health-plan.dwain-maralack.workers.dev/docs/techniques/): Cooking methods and kitchen skills
