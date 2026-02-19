@@ -66,3 +66,6 @@ Same calories on paper. Fewer calories in practice because you get full faster.
 ### Grace Over Perfection
 Miss a day? Eat the wrong thing? Start again at the next meal. No guilt, no spiral. This is a direction, not a destination.
 
+---
+
+*For AI/LLM users: [View structured site data](/llms.txt)*
