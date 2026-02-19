@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(pgrep:*)",
+      "Bash(chmod:*)",
+      "Bash(timeout:*)",
+      "Bash(pkill:*)",
+      "Bash(launchctl load:*)",
+      "Bash(launchctl list:*)",
+      "Bash(brew services restart:*)",
+      "Bash(/opt/homebrew/bin/sketchybar --query:*)",
+      "Bash(launchctl unload:*)"
+    ]
+  }
+}
