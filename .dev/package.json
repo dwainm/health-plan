@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "sync": "node scripts/sync-content.js",
-    "dev": "npm run sync && astro dev",
-    "build": "npm run sync && astro build",
+    "generate-llms": "node scripts/generate-llms.js",
+    "dev": "npm run sync && npm run generate-llms && astro dev",
+    "build": "npm run sync && npm run generate-llms && astro build",
     "preview": "astro preview"
   },
   "dependencies": {

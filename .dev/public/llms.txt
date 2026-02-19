@@ -15,14 +15,13 @@ Key principles:
 
 ## Meal Categories
 
-- [Meals Overview](https://health-plan.dwain-maralack.workers.dev/meals/readme/): Complete meal listing with 61 recipes across all categories
-- [Breakfasts](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/): 7 recipes including oats, pancakes, waffles, and smoothie bowls
-- [Lunches](https://health-plan.dwain-maralack.workers.dev/meals/lunches/): 6 recipes with tacos, quesadillas, casseroles, and sandwiches
-- [Dinners](https://health-plan.dwain-maralack.workers.dev/meals/dinners/): 19 core dinner recipes including curries, stews, pasta, and rice dishes
-- [Soups](https://health-plan.dwain-maralack.workers.dev/meals/soups/): Standalone soup recipes
-- [Sides](https://health-plan.dwain-maralack.workers.dev/meals/sides/): 6 complementary dishes including falafels, rice pilaf, and roasted vegetables
-- [Special Meals](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/): Guest meals and celebration dishes
-- [Treats](https://health-plan.dwain-maralack.workers.dev/meals/treats/): 18 dessert recipes including cakes, cookies, nice creams, and bars
+- [Breakfasts](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/): 7 recipes
+- [Lunches](https://health-plan.dwain-maralack.workers.dev/meals/lunches/): 6 recipes
+- [Dinners](https://health-plan.dwain-maralack.workers.dev/meals/dinners/): 19 recipes
+- [Soups](https://health-plan.dwain-maralack.workers.dev/meals/soups/): 1 recipes
+- [Sides](https://health-plan.dwain-maralack.workers.dev/meals/sides/): 6 recipes
+- [Special Meals](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/): 5 recipes
+- [Treats](https://health-plan.dwain-maralack.workers.dev/meals/treats/): 18 recipes
 
 ## Tools
 
@@ -31,9 +30,74 @@ Key principles:
 
 ## Bread & Baking
 
-- [Bread & Baking Overview](https://health-plan.dwain-maralack.workers.dev/bread/): Sourdough and whole grain bread recipes
+- [Bread & Baking](https://health-plan.dwain-maralack.workers.dev/bread/): 2 recipes
 
 ## Optional
 
 - [Core Principles](https://health-plan.dwain-maralack.workers.dev/docs/principles/): Detailed philosophy and approach
 - [Techniques](https://health-plan.dwain-maralack.workers.dev/docs/techniques/): Cooking methods and kitchen skills
+
+## All Recipes
+
+- [20-Minute Black Bean Tacos](https://health-plan.dwain-maralack.workers.dev/meals/lunches/20-minute-black-bean-tacos)
+- [Apple-Raisin Oatmeal Cookies](https://health-plan.dwain-maralack.workers.dev/meals/treats/apple-raisin-oatmeal-cookies)
+- [Banana Pancakes](https://health-plan.dwain-maralack.workers.dev/meals/treats/banana-pancakes)
+- [Banana Teff Bread](https://health-plan.dwain-maralack.workers.dev/meals/treats/banana-teff-bread)
+- [Best-Ever Beefless Stew](https://health-plan.dwain-maralack.workers.dev/meals/dinners/beefless-stew)
+- [Black Bean and Sweet Potato Quesadillas](https://health-plan.dwain-maralack.workers.dev/meals/lunches/black-bean-sweet-potato-quesadillas)
+- [Black Bean Brownies](https://health-plan.dwain-maralack.workers.dev/meals/treats/black-bean-brownies)
+- [Buffalo Cauliflower Bites](https://health-plan.dwain-maralack.workers.dev/meals/sides/buffalo-cauliflower-bites)
+- [Butter Chicken Curry](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/butter-chicken)
+- [Butternut Chickpea Curry](https://health-plan.dwain-maralack.workers.dev/meals/dinners/butternut-chickpea-curry)
+- [Cannellini White Bean Sauce](https://health-plan.dwain-maralack.workers.dev/meals/sides/cannellini-bean-sauce)
+- [Cardamom Roasted Carrots with Pomegranate Seeds](https://health-plan.dwain-maralack.workers.dev/meals/sides/cardamom-roasted-carrots)
+- [Cheesy Vegan Potato Casserole](https://health-plan.dwain-maralack.workers.dev/meals/lunches/cheesy-potato-casserole)
+- [Chocolate Mousse Pie](https://health-plan.dwain-maralack.workers.dev/meals/treats/chocolate-mousse-pie)
+- [Cranberry Orange Pumpkin Muffins](https://health-plan.dwain-maralack.workers.dev/meals/treats/cranberry-orange-pumpkin-muffins)
+- [Crispy Baked Falafels](https://health-plan.dwain-maralack.workers.dev/meals/sides/crispy-baked-falafels)
+- [Easy Vegan Paella](https://health-plan.dwain-maralack.workers.dev/meals/dinners/vegan-paella)
+- [Frozen Chocolate Banana Treats](https://health-plan.dwain-maralack.workers.dev/meals/treats/frozen-chocolate-banana-treats)
+- [Healthy Bananas Foster](https://health-plan.dwain-maralack.workers.dev/meals/treats/bananas-foster)
+- [Herbed Instant Pot Rice Pilaf](https://health-plan.dwain-maralack.workers.dev/meals/sides/herbed-rice-pilaf)
+- [Indian-Spiced Cauliflower and Potato Casserole](https://health-plan.dwain-maralack.workers.dev/meals/dinners/indian-cauliflower-potato-casserole)
+- [Instant Pot Mushroom-Barley Stew](https://health-plan.dwain-maralack.workers.dev/meals/dinners/instant-pot-mushroom-barley-stew)
+- [Lamb & Beef Pot](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/lamb-beef-pot)
+- [Lentil Bolognese](https://health-plan.dwain-maralack.workers.dev/meals/dinners/lentil-bolognese)
+- [Linguine with Mushroom Pesto](https://health-plan.dwain-maralack.workers.dev/meals/dinners/linguine-mushroom-pesto)
+- [Mac and Cheese with Roasted Veggies](https://health-plan.dwain-maralack.workers.dev/meals/dinners/mac-and-cheese-roasted-veggies)
+- [Mango Nice Cream](https://health-plan.dwain-maralack.workers.dev/meals/treats/mango-nice-cream)
+- [Maple-Cinnamon Oatmeal Waffles](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/maple-cinnamon-waffles)
+- [Mexican Bean and Rice Casserole](https://health-plan.dwain-maralack.workers.dev/meals/lunches/mexican-bean-rice-casserole)
+- [Moroccan Lamb](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/moroccan-lamb)
+- [Mushroom Chorizo Tacos con Papas](https://health-plan.dwain-maralack.workers.dev/meals/dinners/mushroom-chorizo-tacos)
+- [Nacho Baked Potato](https://health-plan.dwain-maralack.workers.dev/meals/dinners/nacho-baked-potato)
+- [Oatmeal Breakfast Bake with Berries](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/oatmeal-breakfast-bake)
+- [Oats](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/oats)
+- [Penne with Tomato-Mushroom Sauce](https://health-plan.dwain-maralack.workers.dev/meals/dinners/penne-tomato-mushroom)
+- [Perfect Vegan Carrot Cake](https://health-plan.dwain-maralack.workers.dev/meals/treats/carrot-cake)
+- [Potato-Cauliflower Curry](https://health-plan.dwain-maralack.workers.dev/meals/dinners/potato-cauliflower-curry)
+- [Quinoa and Apple Breakfast Casserole](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/quinoa-apple-casserole)
+- [Raw Choco Bites](https://health-plan.dwain-maralack.workers.dev/meals/treats/raw-choco-bites)
+- [Restaurant-Style Dal Tadka](https://health-plan.dwain-maralack.workers.dev/meals/dinners/restaurant-style-dal-tadka)
+- [Roasted Tomato and Cannellini Bean Pasta](https://health-plan.dwain-maralack.workers.dev/meals/dinners/roasted-tomato-cannellini-pasta)
+- [Seafood Pot](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/seafood-pot)
+- [Shredded Portobello Open-Face Sandwiches](https://health-plan.dwain-maralack.workers.dev/meals/lunches/portobello-open-face-sandwiches)
+- [Skillet Green Beans with Caramelized Onions and Mushrooms](https://health-plan.dwain-maralack.workers.dev/meals/dinners/skillet-green-beans)
+- [Smoky Vegan Stuffed Mushrooms](https://health-plan.dwain-maralack.workers.dev/meals/sides/smoky-stuffed-mushrooms)
+- [Smoothie Bowl](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/smoothie-bowl)
+- [Spaghetti Squash Boats with White Beans and Swiss Chard](https://health-plan.dwain-maralack.workers.dev/meals/dinners/spaghetti-squash-boats)
+- [Spanish-Style Fava Beans](https://health-plan.dwain-maralack.workers.dev/meals/dinners/spanish-style-fava-beans)
+- [Sweet and Sour Vegetable Soup](https://health-plan.dwain-maralack.workers.dev/meals/soups/sweet-sour-vegetable-soup)
+- [Sweet Moroccan Pancakes with Chocolate Banana Sauce](https://health-plan.dwain-maralack.workers.dev/meals/treats/moroccan-pancakes)
+- [Sweet Potato Bars](https://health-plan.dwain-maralack.workers.dev/meals/treats/sweet-potato-bars)
+- [Sweet Potato Bites](https://health-plan.dwain-maralack.workers.dev/meals/treats/sweet-potato-bites)
+- [Sweet Potato Rosette Tart](https://health-plan.dwain-maralack.workers.dev/meals/treats/sweet-potato-rosette-tart)
+- [The 10 Guest Meals](https://health-plan.dwain-maralack.workers.dev/meals/specialmeals/guest-meals)
+- [Tuscan White Bean Burgers](https://health-plan.dwain-maralack.workers.dev/meals/dinners/tuscan-white-bean-burgers)
+- [Vanilla Nice Cream](https://health-plan.dwain-maralack.workers.dev/meals/treats/vanilla-nice-cream)
+- [Vegan Apple Pie](https://health-plan.dwain-maralack.workers.dev/meals/treats/apple-pie)
+- [Waffled Hash Browns with Spicy White Beans](https://health-plan.dwain-maralack.workers.dev/meals/lunches/waffled-hash-browns)
+- [Whole Grain Pancakes](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/pancakes)
+- [Whole Grain Toast](https://health-plan.dwain-maralack.workers.dev/meals/breakfasts/whole-grain-toast)
+- [Wholesome Oat Snackles](https://health-plan.dwain-maralack.workers.dev/meals/treats/oat-snackles)
+- [Wild Mushroom and Asparagus Risotto](https://health-plan.dwain-maralack.workers.dev/meals/dinners/mushroom-asparagus-risotto)
