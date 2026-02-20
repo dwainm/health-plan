@@ -42,12 +42,11 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 ### Method
 
-1. **Toast oats** (optional but recommended): Heat dry pot over medium heat. Add oats and toast 2-3 minutes, stirring occasionally, until fragrant and lightly golden. This deepens the flavor.
-2. **Combine base**: Add almond milk, water, mashed banana, cinnamon, and salt to the pot with toasted oats
-3. **Cook**: Bring to gentle boil, reduce to low, simmer 5-8 minutes until thick and creamy. Stir occasionally. Add splash more liquid if too thick.
-4. **Enrich**: Remove from heat. Stir in peanut butter and maple syrup until fully melted and incorporated—this makes it velvety.
-5. **Taste**: Adjust sweetness if needed (banana keeps it naturally sweet)
-6. **Top**: Spoon into bowl. Add banana slices, drizzle of extra peanut butter, sprinkle of cinnamon, and any nuts/chia for crunch.
+1. **Combine**: Add oats, almond milk, water, mashed banana, cinnamon, and salt to pot
+2. **Cook**: Bring to gentle boil, reduce to low, simmer 5-8 minutes until thick and creamy. Stir occasionally. Add splash more liquid if too thick.
+3. **Enrich**: Remove from heat. Stir in peanut butter and maple syrup until fully melted and incorporated—this makes it velvety.
+4. **Taste**: Adjust sweetness if needed (banana keeps it naturally sweet)
+5. **Top**: Spoon into bowl. Add banana slices, drizzle of extra peanut butter, sprinkle of cinnamon, and any nuts/chia for crunch.
 
 ### Nutrition (with chia seeds)
 
@@ -59,71 +58,65 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 ---
 
-## Steel-Cut Oats (Stovetop)
+## Stovetop Oats
 
-**Base recipe: 1 cup oats (serves 2-3) | Scale up as needed**
+**Base recipe: 1 cup oats | Scale up as needed**
 
-### Ingredients
+Use steel-cut for chewy texture (longer cook), or rolled oats for creamy fast oats. Both work with the apple-carrot variation.
+
+### Steel-Cut Oats
+
+**Serves 2-3 | 20-30 minutes**
 
 | Ingredient | Amount | Notes |
 |------------|--------|-------|
 | Steel-cut oats | 1 cup | Also called Irish oats |
 | Water | 3 cups | Or unsweetened plant milk (3:1 ratio) |
 | Salt | ¼ tsp | Essential for flavor |
-| Cinnamon | ¼ tsp | Optional, add while cooking |
-
-### Method
-
-1. **Toast oats** (optional): Dry toast oats in pot 2-3 minutes until fragrant
-2. **Add liquid and salt**: Bring to boil
-3. **Simmer**: Reduce heat, cover, cook 20-30 minutes until creamy
-4. **Stir occasionally**: Prevent sticking
-
-### Apple-Carrot Variation (Microwave Method)
-
-**For this batch (1 cup oats, serves 2-3):**
-- 1 medium apple, grated
-- 1 medium carrot, grated  
-- 2 tbsp water
+| Cinnamon | ¼ tsp | Optional |
 
 **Method:**
-1. **Grate**: Use box grater or food processor to grate apple and carrot (no need to peel)
-2. **Microwave**: Place grated mixture and water in microwave-safe bowl. Cover and microwave on high for 2-3 minutes until soft and fragrant
-3. **Add to pot**: Stir microwaved mixture into oats during the last 5 minutes of cooking
-4. **Season**: Add extra cinnamon, vanilla, and your choice of nuts
+1. **Add liquid and salt**: Bring to boil
+2. **Simmer**: Reduce heat, cover, cook 20-30 minutes until creamy
+3. **Stir occasionally**: Prevent sticking
 
-**Benefits:**
-- Natural sweetness reduces need for added sugar
-- Pre-cooked vegetables blend into creamy texture
-- Extra fiber and nutrients from whole produce
+### Rolled Oats
 
----
-
-## Standard Rolled Oats (Stovetop)
-
-**Base recipe: 1 cup oats (serves 2) | ~5 minutes**
-
-The classic quick oats method. Simple 1:2 ratio that scales easily.
-
-### Ingredients
+**Serves 2 | ~5 minutes**
 
 | Ingredient | Amount | Notes |
 |------------|--------|-------|
 | Rolled oats | 1 cup | Old-fashioned, not instant |
-| Water | 2 cups | Or 1:1 water and milk |
+| Water | 2 cups | Or 1:1 water and milk (1:2 ratio) |
 | Salt | ¼ tsp | Essential |
 
-### Method
-
+**Method:**
 1. **Combine**: Add oats, water, and salt to pot
 2. **Boil**: Bring to boil over medium-high heat
 3. **Simmer**: Reduce heat, cook 3-5 minutes, stirring occasionally
 4. **Rest**: Remove from heat, let stand 1 minute to thicken
 
+### Apple-Carrot Variation
+
+**Per 1 cup oats:**
+- 1 medium apple, grated
+- 1 medium carrot, grated  
+- 2 tbsp water
+
+**Method:**
+1. **Grate**: Apple and carrot (no need to peel)
+2. **Microwave**: Place grated mixture and water in bowl. Cover and microwave 2-3 minutes until soft
+3. **Add to pot**: Stir into oats during last 5 minutes (steel-cut) or last 2 minutes (rolled) of cooking
+4. **Season**: Add cinnamon, vanilla, nuts
+
+**Benefits:**
+- Natural sweetness reduces need for added sugar
+- Extra fiber and nutrients from whole produce
+
 ### Notes
 
-- **Ratio scales**: 1 part oats to 2 parts liquid
-- **Creamier**: Use milk instead of water, or half-and-half
+- **Ratio**: Steel-cut 1:3, Rolled 1:2
+- **Creamier**: Use milk instead of water
 - **Microwave**: Combine in bowl, microwave 2-3 minutes, stir halfway
 
 ---
