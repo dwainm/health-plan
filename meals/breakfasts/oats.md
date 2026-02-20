@@ -101,7 +101,7 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 ## Standard Rolled Oats (Stovetop)
 
-**Serves 1 | ~5 minutes**
+**Base recipe: 1 cup oats (serves 2) | ~5 minutes**
 
 The classic quick oats method. Simple 1:2 ratio that scales easily.
 
@@ -109,9 +109,9 @@ The classic quick oats method. Simple 1:2 ratio that scales easily.
 
 | Ingredient | Amount | Notes |
 |------------|--------|-------|
-| Rolled oats | ½ cup | Old-fashioned, not instant |
-| Water | 1 cup | Or 1:1 water and milk |
-| Salt | pinch | Essential |
+| Rolled oats | 1 cup | Old-fashioned, not instant |
+| Water | 2 cups | Or 1:1 water and milk |
+| Salt | ¼ tsp | Essential |
 
 ### Method
 
