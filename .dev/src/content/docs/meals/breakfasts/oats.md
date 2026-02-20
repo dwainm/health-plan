@@ -81,6 +81,28 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 3. **Simmer**: Reduce heat, cover, cook 20-30 minutes until creamy
 4. **Stir occasionally**: Prevent sticking
 
+### Apple-Carrot Variation (Microwave Method)
+
+**Scales with batch | Adds 3 minutes | Extra fiber & sweetness**
+
+Grating and pre-cooking apple and carrot breaks down cell walls, releasing natural sugars and making them tender before adding to the pot.
+
+**For full batch (serves 4-6):**
+- 2 medium apples, grated
+- 2 medium carrots, grated  
+- ¼ cup water
+
+**Method:**
+1. **Grate**: Use box grater or food processor to grate apple and carrot (no need to peel)
+2. **Microwave**: Place grated mixture and water in microwave-safe bowl. Cover and microwave on high for 3-4 minutes until soft and fragrant
+3. **Add to pot**: Stir microwaved mixture into oats during the last 5 minutes of cooking
+4. **Season**: Add extra cinnamon, vanilla, and your choice of nuts
+
+**Benefits:**
+- Natural sweetness reduces need for added sugar
+- Pre-cooked vegetables blend into creamy texture
+- Extra fiber and nutrients from whole produce
+
 ---
 
 ## Overnight Oats (No-Cook)
@@ -146,38 +168,6 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 3. Pour into 9x13 baking dish
 4. Bake 35-40 minutes until set
 5. Serve warm or cool completely for grab-and-go portions
-
----
-
-## Microwave Apple-Carrot Base (Quick Method)
-
-**Serves 1 | Adds 3 minutes | Extra fiber & sweetness**
-
-Grating and pre-cooking apple and carrot breaks down cell walls, releasing natural sugars and making them tender before adding to oats. This creates a sweeter, more cohesive bowl without added sugar.
-
-### Ingredients
-
-| Ingredient | Amount | Notes |
-|------------|--------|-------|
-| Apple (any variety) | 1 small | Grated or finely chopped |
-| Carrot | 1 small | Grated |
-| Water | 2 tbsp | For steaming |
-
-### Method
-
-1. **Grate**: Use box grater or food processor to grate apple and carrot (no need to peel)
-2. **Microwave**: Place grated apple, carrot, and 2 tbsp water in microwave-safe bowl. Cover and microwave on high for 2-3 minutes until soft and fragrant
-3. **Add to pot**: Stir microwaved mixture into your oats during the last 2-3 minutes of cooking
-4. **Benefits**: 
-   - Natural sweetness reduces need for added sugar
-   - Pre-cooked vegetables blend into creamy texture
-   - Extra fiber and nutrients from whole produce
-
-### Flavor Combinations
-
-**Classic**: Add cinnamon + vanilla + walnuts
-**Tropical**: Add coconut flakes + chopped dates
-**Spiced**: Add ginger + nutmeg + pecans
 
 ---
 
