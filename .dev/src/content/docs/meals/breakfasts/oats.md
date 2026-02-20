@@ -149,6 +149,38 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 ---
 
+## Microwave Apple-Carrot Base (Quick Method)
+
+**Serves 1 | Adds 3 minutes | Extra fiber & sweetness**
+
+Grating and pre-cooking apple and carrot breaks down cell walls, releasing natural sugars and making them tender before adding to oats. This creates a sweeter, more cohesive bowl without added sugar.
+
+### Ingredients
+
+| Ingredient | Amount | Notes |
+|------------|--------|-------|
+| Apple (any variety) | 1 small | Grated or finely chopped |
+| Carrot | 1 small | Grated |
+| Water | 2 tbsp | For steaming |
+
+### Method
+
+1. **Grate**: Use box grater or food processor to grate apple and carrot (no need to peel)
+2. **Microwave**: Place grated apple, carrot, and 2 tbsp water in microwave-safe bowl. Cover and microwave on high for 2-3 minutes until soft and fragrant
+3. **Add to pot**: Stir microwaved mixture into your oats during the last 2-3 minutes of cooking
+4. **Benefits**: 
+   - Natural sweetness reduces need for added sugar
+   - Pre-cooked vegetables blend into creamy texture
+   - Extra fiber and nutrients from whole produce
+
+### Flavor Combinations
+
+**Classic**: Add cinnamon + vanilla + walnuts
+**Tropical**: Add coconut flakes + chopped dates
+**Spiced**: Add ginger + nutmeg + pecans
+
+---
+
 ## Toppings (Choose 2-3)
 
 | Topping | Portion | Notes |
