@@ -61,16 +61,16 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 ## Steel-Cut Oats (Stovetop)
 
-**Serves 4-6**
+**Base recipe: 1 cup oats (serves 2-3) | Scale up as needed**
 
 ### Ingredients
 
 | Ingredient | Amount | Notes |
 |------------|--------|-------|
-| Steel-cut oats | 1½ cups | Also called Irish oats |
-| Water | 4½ cups | Or unsweetened plant milk |
-| Salt | ½ tsp | Essential for flavor |
-| Cinnamon | ½ tsp | Optional, add while cooking |
+| Steel-cut oats | 1 cup | Also called Irish oats |
+| Water | 3 cups | Or unsweetened plant milk (3:1 ratio) |
+| Salt | ¼ tsp | Essential for flavor |
+| Cinnamon | ¼ tsp | Optional, add while cooking |
 
 ### Method
 
@@ -78,6 +78,53 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 2. **Add liquid and salt**: Bring to boil
 3. **Simmer**: Reduce heat, cover, cook 20-30 minutes until creamy
 4. **Stir occasionally**: Prevent sticking
+
+### Apple-Carrot Variation (Microwave Method)
+
+**For this batch (1 cup oats, serves 2-3):**
+- 1 medium apple, grated
+- 1 medium carrot, grated  
+- 2 tbsp water
+
+**Method:**
+1. **Grate**: Use box grater or food processor to grate apple and carrot (no need to peel)
+2. **Microwave**: Place grated mixture and water in microwave-safe bowl. Cover and microwave on high for 2-3 minutes until soft and fragrant
+3. **Add to pot**: Stir microwaved mixture into oats during the last 5 minutes of cooking
+4. **Season**: Add extra cinnamon, vanilla, and your choice of nuts
+
+**Benefits:**
+- Natural sweetness reduces need for added sugar
+- Pre-cooked vegetables blend into creamy texture
+- Extra fiber and nutrients from whole produce
+
+---
+
+## Standard Rolled Oats (Stovetop)
+
+**Serves 1 | ~5 minutes**
+
+The classic quick oats method. Simple 1:2 ratio that scales easily.
+
+### Ingredients
+
+| Ingredient | Amount | Notes |
+|------------|--------|-------|
+| Rolled oats | ½ cup | Old-fashioned, not instant |
+| Water | 1 cup | Or 1:1 water and milk |
+| Salt | pinch | Essential |
+
+### Method
+
+1. **Combine**: Add oats, water, and salt to pot
+2. **Boil**: Bring to boil over medium-high heat
+3. **Simmer**: Reduce heat, cook 3-5 minutes, stirring occasionally
+4. **Rest**: Remove from heat, let stand 1 minute to thicken
+
+### Notes
+
+- **Ratio scales**: 1 part oats to 2 parts liquid
+- **Creamier**: Use milk instead of water, or half-and-half
+- **Microwave**: Combine in bowl, microwave 2-3 minutes, stir halfway
 
 ---
 
