@@ -105,6 +105,35 @@ Grating and pre-cooking apple and carrot breaks down cell walls, releasing natur
 
 ---
 
+## Standard Rolled Oats (Stovetop)
+
+**Serves 1 | ~5 minutes**
+
+The classic quick oats method. Simple 1:2 ratio that scales easily.
+
+### Ingredients
+
+| Ingredient | Amount | Notes |
+|------------|--------|-------|
+| Rolled oats | ½ cup | Old-fashioned, not instant |
+| Water | 1 cup | Or 1:1 water and milk |
+| Salt | pinch | Essential |
+
+### Method
+
+1. **Combine**: Add oats, water, and salt to pot
+2. **Boil**: Bring to boil over medium-high heat
+3. **Simmer**: Reduce heat, cook 3-5 minutes, stirring occasionally
+4. **Rest**: Remove from heat, let stand 1 minute to thicken
+
+### Notes
+
+- **Ratio scales**: 1 part oats to 2 parts liquid
+- **Creamier**: Use milk instead of water, or half-and-half
+- **Microwave**: Combine in bowl, microwave 2-3 minutes, stir halfway
+
+---
+
 ## Overnight Oats (No-Cook)
 
 *Adapted from Oh She Glows*
