@@ -63,16 +63,16 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 ## Steel-Cut Oats (Stovetop)
 
-**Serves 4-6**
+**Base recipe: 1 cup oats (serves 2-3) | Scale up as needed**
 
 ### Ingredients
 
 | Ingredient | Amount | Notes |
 |------------|--------|-------|
-| Steel-cut oats | 1½ cups | Also called Irish oats |
-| Water | 4½ cups | Or unsweetened plant milk |
-| Salt | ½ tsp | Essential for flavor |
-| Cinnamon | ½ tsp | Optional, add while cooking |
+| Steel-cut oats | 1 cup | Also called Irish oats |
+| Water | 3 cups | Or unsweetened plant milk (3:1 ratio) |
+| Salt | ¼ tsp | Essential for flavor |
+| Cinnamon | ¼ tsp | Optional, add while cooking |
 
 ### Method
 
@@ -87,12 +87,10 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 Grating and pre-cooking apple and carrot breaks down cell walls, releasing natural sugars and making them tender before adding to the pot.
 
-**Ratio: 1 apple + 1 medium carrot per 1 cup oats**
-
-**For this batch (1½ cups oats, serves 4-6):**
-- 1½ medium apples, grated
-- 1½ medium carrots, grated  
-- ¼ cup water
+**For this batch (1 cup oats, serves 2-3):**
+- 1 medium apple, grated
+- 1 medium carrot, grated  
+- 2 tbsp water
 
 **Method:**
 1. **Grate**: Use box grater or food processor to grate apple and carrot (no need to peel)
