@@ -87,9 +87,11 @@ This is our go-to high-energy breakfast. The peanut butter and banana combo is a
 
 Grating and pre-cooking apple and carrot breaks down cell walls, releasing natural sugars and making them tender before adding to the pot.
 
-**For full batch (serves 4-6):**
-- 2 medium apples, grated
-- 2 medium carrots, grated  
+**Ratio: 1 apple + 1 medium carrot per 1 cup oats**
+
+**For this batch (1½ cups oats, serves 4-6):**
+- 1½ medium apples, grated
+- 1½ medium carrots, grated  
 - ¼ cup water
 
 **Method:**
